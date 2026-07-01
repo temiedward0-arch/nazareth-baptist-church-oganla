@@ -16,7 +16,7 @@ h1{
   margin:0;
 }
 nav{
-  font-size: 10px;
+  font-size: 15px;
   color: white;
 }
 ul{
@@ -163,3 +163,33 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+.pastor{
+    text-align:center;
+    padding:50px 20px;
+    background:#f8f8f8;
+}
+
+.pastor h2{
+    color:darkblue;
+    margin-bottom:20px;
+}
+
+.pastor img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid darkblue;
+}
+
+.pastor h3{
+    margin-top:20px;
+    color:#003366;
+}
+
+.pastor p{
+    max-width:700px;
+    margin:20px auto;
+    font-size:18px;
+    line-height:1.7;
+  }
