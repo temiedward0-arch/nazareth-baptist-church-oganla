@@ -226,3 +226,49 @@ footer a:hover{
 .live-btn:hover{
     background:#a00000;
   }
+.live-banner{
+    background:red;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    overflow:hidden;
+}
+
+.live-text{
+    white-space:nowrap;
+    animation:scroll 12s linear infinite;
+    font-weight:bold;
+}
+
+.live-banner a{
+    background:black;
+    color:white;
+    text-decoration:none;
+    padding:8px 15px;
+    border-radius:5px;
+    margin-left:20px;
+}
+
+.live-banner a:hover{
+    background:gold;
+    color:black;
+}
+
+@keyframes scroll{
+
+    from{
+        transform:translateX(100%);
+    }
+
+    to{
+        transform:translateX(-100%);
+    }
+
+  }
